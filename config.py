@@ -37,8 +37,8 @@ class Config(object):
     CUSTOM_CMD = False
     CHANNEL = getenv("CHANNEL", "About_kailas")
     SUPPORT = getenv("SUPPORT", "Pranav_support_Chat")
-    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
-    CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/66518ed54301654f0b126.png")
+    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/081c9b5aa623eb60c5d7f.jpg")
+    CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/c9dbb1f7ff00665698e7d.jpg")
     CASH_API_KEY = getenv("CASH_API_KEY", "https://www.alphavantage.co/support/#api-key")
     TIME_API_KEY = getenv("TIME_API_KEY", "https://timezonedb.com/api")
     WALL_API = getenv("WALL_API", "https://wall.alphacoders.com/api.php")
